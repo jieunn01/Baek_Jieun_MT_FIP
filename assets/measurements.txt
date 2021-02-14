@@ -1,0 +1,47 @@
+Measurements
+
+Home page
+
+Header { width: 1280px; height: 152px;}
+Gradient box { width: 1280px; 15px; }
+Logo {width: 176px; 111px;}
+mainNav{ width: 1000px; height: 54px;}
+navButton {width: 169px; height54px; }
+
+Promo section { width: 957px; height: 1170px; }
+Promoimage { width: 1290px; height: 498px;}
+promoText { width: 499px; height: 498px; }
+BuyButton { width: 130px; height: 38px; }
+
+TypoLogo { width: 572px; height: 136px; }
+Promo section { width: 957px; height: 948px; }
+Title 1 { width: 453px; height: 453px; }
+MoreButton { width: 80px; height: 38px; }
+
+Footer { width: 1280px; height: 112px; }
+subNavLogo { width: 104px; height: 59px; }
+Copyright { width: 282px; height: 34px; }
+Social media { width: 151.62px; height: 32.93px; }
+IconEach { width: 32.93px; height: 32.93px; }
+
+
+Contact page
+
+Contact Section { width: 1075px; height: 698px; }
+
+Message section { width: 485px; height:591px; }
+Form { width: 485px; height: 366px; }
+Answer button { width: 343px; height: 31px; }
+Answer button 2 { width: 387px; height: 168px; }
+Submit button { width: 109px; height: 31px; }
+
+Contact section { width: 477px; height: 593px; }
+Social media section { width: 156.54px; height: 34px; }
+IconEach { width: 34px; height: 34px; }
+
+
+
+
+
+
+
