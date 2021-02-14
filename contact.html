@@ -2,8 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Cntact Us</title>
+		<title>Contact Us</title>
 		<!-- Reset first, order matters -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
@@ -12,22 +14,24 @@
 		<div id="container">
 			<div id="gradient"></div>
 			<header id="mainHeader">
-				<img src="#" alt="mainNav logo" id="mainLogo">
+				<img src="images/nav_logo.png" alt="mainNav logo" id="mainLogo">
 				<nav id="mainNav">
 					<h2 class="hidden">main navigation</h2>
 					<ul>
 						<li><a href="index.html">HOME</a></li>
-						<li><a href="#">ABOUT US</a></li>
-						<li><a href="#">PRODUCTS</a></li>
-						<li><a href="#">ADVERTS</a></li>
+						<li><a href="aboutus.html">ABOUT US</a></li>
+						<li><a href="products.html">PRODUCTS</a></li>
+						<li><a href="adverts.html">ADVERTS</a></li>
 						<li><a href="contact.html">CONTACT US</a></li>
 					</ul>	
 				</nav>
 			</header>
 
 			<main>
+				<h2 class="contactTitle">Contact Us</h2>
+				<br>
 			<section id="contactCon">
-				<h2 style="text-align: center;">Contact Us</h2>
+				<h2 class="hidden">Container contact page</h2>
 
 				<section id="messageCon">
 					<h2 class="hidden">message container</h2>
@@ -45,7 +49,7 @@
 							<input type="text" name="phoneNumber">
 						</p>
 						<p>
-							<strong>Email address</strong>
+							<strong>E-mail address</strong>
 							<input type="text" name="email">
 						</p>
 						<p>
@@ -81,31 +85,32 @@
 					</p>
 					<section id="contactSocial">
 						<h2 class="hidden">social media container</h2>
-						<img src="#" alt="twitter_icon" class="icon-contact">
-						<img src="#" alt="facebook_icon" class="icon-contact">
-						<img src="#" alt="tinsa_icon" class="icon-contact">
-						<img src="#" alt="tshare_icon" class="icon-contact">
+						<img src="images/twlogo.png" alt="twitter_icon" class="icon-contact">
+						<img src="images/fblogo.png" alt="facebook_icon" class="icon-contact">
+						<img src="images/instalogo.png" alt="insa_icon" class="icon-contact">
+						<img src="images/sharelogo.png" alt="tshare_icon" class="icon-contact">
 					</section>
 
 				</section>
 			</section>
 			</main>
+			
 			<footer id="footerCon">
 				<section id="subNavLogo">
 					<h2 class="hidden">sub navigation logo </h2>
-				<img src="#" alt="sub navigation Logo"></section>
+				<a href="index.html"><img src="images/typologo.png" alt="sub navigation Logo" width="104" height="45" ></a></section>
 				<p>Enjoy Responsibly. <br> @Bluesteel beer, all rights reserved. </p>
 				
 				<section id="socialMediaCon">
 					<h2 class="hidden"> social media container</h2>
-					<img src="twitterLogo" alt="twitter logo" class="icon">
-					<img src="facebookLogo" alt="facebook logo" class="icon">
-					<img src="instaLogo" alt="insta logo"class="icon">
-					<img src="shareLogo" alt="share logo" class="icon">
+					<img src="images/twlogo.png" alt="twitter logo" class="icon">
+					<img src="images/fblogo.png" alt="facebook logo" class="icon">
+					<img src="images/instalogo.png" alt="insta logo"class="icon">
+					<img src="images/sharelogo.png" alt="share logo" class="icon">
 				</section>
 			</footer>
+			
 		</div>
-
 		<!-- This is where the content goes -->
 		<script src="js/main.js"></script>
 	</body>

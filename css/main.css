@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'nobileregular';
+    src: url('../fonts/nobile-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .hidden {
 	display: none;
 }
@@ -8,17 +17,25 @@ a
 
 }
 
-body{
-	Font-Family: 'Cinzel', Cursive;
-	Font-Size: 44px;
-	Font-Family: 'Fauna One', Serif;
-	Font-Size: 14px;
+h2, h3 {
+	font-family: 'Playfair Display', Arial, serif;
 }
 
+p{
+	line-height: 26px;
+	font-family: 'nobileregular', Arial, Serif;
+
+}
+button{
+	font-family: 'nobileregular', Arial, Serif;
+	font-size: 20px;
+	text-decoration: none;
+}
 #container
 {
 	width: 1280px;
 	margin: 0 auto;
+	margin-bottom: 30px;
 }
 #gradient
 {
@@ -39,32 +56,33 @@ body{
 #mainLogo
 {
 	display: block;
-	width: 176px;
+	width: 300px;
 	height: 111px;
-	background-color: black;
+	
 }
 #mainNav
 {
-	margin-left: auto;
 	display: flex;
 	flex-direction: column;
 }
 
 #mainNav ul
 {
-	margin-top: 56px;
+	font-family: 'Playfair Display', Arial, serif;
+	margin-top: 50px;
 	display: flex;
-	flex-direction: row;
-	text-align: center;
 }
 
 #mainNav ul li a
 {
-	margin-left: 41px;
+	font-size: 20px;
 	display: block;
 	text-align: center;
+	margin-left: 25px;
 	width: 169px;
-	height: 54px;
+	height: 27px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #161d44;
 	color: #fff;
 	border-radius: 5px;
@@ -86,9 +104,8 @@ body{
 
 #mainImage
 {
-	width: 1280px;
-	height: 498px;
-	background-color: black;
+	width: 1100px;
+	height: 460px;
 }
 #blueBox
 {
@@ -96,30 +113,42 @@ body{
 	flex-direction: column;
 	width: 499px;
 	height: 498px;
-	background-color: #161d44;
 	opacity: 0.9;
-	color: #fff;
-	margin-left: 14px;
+	color: #161d44;
+	margin-left: 5px;
+}
+#blueBox h2
+{
+	font-size: 40px;
+	margin: 10px 5px 10px 5px;
+}
+
+#blueBox p
+{
+	font-size: 18px;
+	margin: 10px 10px 0px 10px;
+	line-height: 30px;
 }
 
 #buyButton
 {
+	display: block;
 	width: 130px;
-	height: 38px;
-	border: 2px solid white;
+	height: 50px;
+	border: 5px solid white;
+	margin-left: 5px;
+	margin-top: 20px;
 	cursor: pointer;
-	border-color: #fff;
+	border-color: #161d44;
 	border-radius: 5px;
-	color: #fff;
-	background-color: #161d44;
+	background-color: #fff;
 }
 
 #typoLogo
 {
 	display: block;
-	width: 572px;
-	height: 136px;
-	background-color: black;
+	width: 300px;
+	height: 100px;
 	padding: 20px;
 	margin: 0 auto;
 	margin-top: 37px;
@@ -133,21 +162,58 @@ body{
 	justify-content: space-between;
 	width: 957px;
 	height: 948px;
-	background-color: black;
 	margin: 0 auto;
 }
 
-.titleSection 
+#promoCon h2
+{
+	font-size: 40px;
+	font-family: 'nobileregular', Arial, Serif;
+	color: black;
+}
+
+.titleSection1
 {
 	position: relative;
+	margin-top: 40px;
+	width: 453px;
+	height: 
 }
+/*.Titles{
+	margin-top: 160px;
+	margin-right: auto;
+	z-index: 1;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+
+}
+*/
+.titleSection2
+{
+	position: relative;
+	margin-top: 40px;
+	width: 453px;
+
+
+
+}
+
+
+.titleSectionH
+{
+	font-family: 'nobileregular', Arial, Serif;
+	font-size: 28px;
+	text-align: center;
+}
+
+
 
 .titleBox
 {
-	display: block;
-	width: 453px;
-	height: 453px;
-	background-color: #B7B4B4;
+	position: absolute;
+	margin: 0 auto;
 	text-align: center;
 
 }
@@ -160,7 +226,7 @@ body{
 	top: 50%;
 	bottom: 50%;
 	margin-left: 184px;
-	border: 2px solid white;
+	border: 5px solid white;
 	cursor: pointer;
 	border-color: #fff;
 	border-radius: 5px;
@@ -182,18 +248,18 @@ body{
 
 #footerCon p
 {
+	font-size: 14px;
 	margin-left: 14px;
-	margin-top: 40px;
+	margin-top: 29px;
 	color: #fff;
 }
 
 #subNavLogo
 {
 	width: 104px;
-	height: 59px;
+	height: 50px;
 	margin-left: 38px;
-	margin-top: 27px;
-	background-color: #fff;
+	margin-top: 33px;
 }
 
 #socialMediaCon
@@ -209,12 +275,29 @@ body{
 .icon
 {
 	margin-top: 37px;
-	background-color: #fff;
 	width: 32.93px;
 	height: 32.93px;
 }
 
 /*contact page */
+
+h3{
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: #161d44;
+}
+
+p{
+	font-family:'nobileregular', Arial, Serif;
+}
+
+.contactTitle
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+
 #contactCon
 {
 	display: flex;
@@ -228,10 +311,11 @@ body{
 #messageCon
 {
 	width: 477px;
-	margin-top: 76px;
+	margin-top: 30px;
 	height: 591px;
-	background-color: #BAB7B7;
 	line-height: 20px;
+	margin-right: 20px;
+
 }
 
 #form
@@ -244,6 +328,7 @@ body{
 #messageBox
 {
 	height: 168px;
+	width: 390px;
 }
 
 #submitButton
@@ -252,8 +337,10 @@ body{
 	color: #fff;
 	width: 109px;
 	height: 31px;
-	margin-left: 350px;
+	margin-left: 360px;
 	padding: 5px;
+	margin-top: 20px;
+	border-radius: 5px;
 }
 
 input[type=text] {
@@ -274,9 +361,7 @@ input[type=text] {
 {
 	width: 477px;
 	height: 593px;
-	margin: 0 auto;
-	margin-top: 76px;
-	background-color: #BAB7B7;
+	margin-top: 30px;
 }
 
 #contactSocial
@@ -292,13 +377,148 @@ input[type=text] {
 {
 	width: 34px;
 	height: 34px;
-	background-color: #fff;
 	margin-left: 7px;
 	margin-top: 20px;
 }
 
 /* advert page */
+
+#advertsCon
+{
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+
+}
+.advertsTitle{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+#advertsDes
+{
+	display: inline-block;
+	text-align: left;
+	width: 450px;
+	margin-left: 80px;
+	vertical-align: top; 
+	margin-top: 20px;
+
+}
 /* about us page */
+
+#brandDesc
+{
+	display: flex;
+	margin-top: 10px;
+}
+.aboutusTitle
+{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+
+.aboutUs_logo
+{
+	width: 362px;
+	height: 409px;
+	display: inline-block;
+	margin-left: 90px;
+}
+
+.desc
+{
+	width: 627px;
+	margin-left: 150px;
+}
+
+/*products page*/
+
+.productsTitle {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+
+
+#newdesc
+{
+	display: inline-block;
+	flex-direction: column;
+	width: 390px;
+	margin-bottom: 20px;
+}
+
+#newdesc h2
+{
+	font-family: 'Playfair Display', Arial, serif;
+	font-size: 33px;
+}
+
+#products
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+#productsIntro1
+{
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-left: 80px;
+	flex-direction: row;
+	width: 532px;
+}
+#productsIntro1 h2
+{
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Playfair Display', Arial, serif;
+	font-size: 30px;
+}
+#productsIntro1 img
+{
+	display: block;
+	margin-left: 120px;
+}
+
+#products
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+#productsIntro2
+{
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 532px;
+}
+
+#productsIntro2 h2
+{
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Playfair Display', Arial, serif;
+	font-size: 30px;
+}
+#productsIntro2 img
+{
+	display: block;
+	margin-left: 120px;
+}
+
+
+
+
+
+
+
 
 
 
