@@ -5,7 +5,7 @@
 
 ## Description
 
-oegaarden (product1) & Bluesteel sports anti-chafe cream (product 2)
+Hoegaarden (product1) & Bluesteel sports anti-chafe cream (product 2)
 
 Senario 1: combine Hoegaarden's design elements and bluesteel's name
 
