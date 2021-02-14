@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'nobileregular';
+    src: url('../fonts/nobile-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nobile-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .hidden {
 	display: none;
 }
@@ -9,16 +18,16 @@ a
 }
 
 h2, h3 {
-	font-family:'Cinzel', Arial, serif;
+	font-family: 'Playfair Display', Arial, serif;
 }
 
 p{
 	line-height: 26px;
-	font-family: 'Fauna One', Arial, Serif;
+	font-family: 'nobileregular', Arial, Serif;
 
 }
 button{
-	font-family: 'Fauna One', Arial, Serif;
+	font-family: 'nobileregular', Arial, Serif;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -59,7 +68,7 @@ button{
 
 #mainNav ul
 {
-	font-family:'Cinzel', Arial, serif;
+	font-family: 'Playfair Display', Arial, serif;
 	margin-top: 50px;
 	display: flex;
 }
@@ -71,7 +80,7 @@ button{
 	text-align: center;
 	margin-left: 25px;
 	width: 169px;
-	height: 28px;
+	height: 27px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #161d44;
@@ -95,8 +104,8 @@ button{
 
 #mainImage
 {
-	width: 1250px;
-	height: 498px;
+	width: 1100px;
+	height: 460px;
 }
 #blueBox
 {
@@ -138,8 +147,8 @@ button{
 #typoLogo
 {
 	display: block;
-	width: 400px;
-	height: 136px;
+	width: 300px;
+	height: 100px;
 	padding: 20px;
 	margin: 0 auto;
 	margin-top: 37px;
@@ -159,24 +168,34 @@ button{
 #promoCon h2
 {
 	font-size: 40px;
-	font-family: 'Fauna One', Arial, Serif;
+	font-family: 'nobileregular', Arial, Serif;
 	color: black;
 }
 
 .titleSection1
 {
 	position: relative;
-	display: inline-block;
-	width: 453px;
-
-}
-.titleSection2
-{
-	position: relative;
-	display: inline-block;
 	margin-top: 40px;
 	width: 453px;
 	height: 
+}
+/*.Titles{
+	margin-top: 160px;
+	margin-right: auto;
+	z-index: 1;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+
+}
+*/
+.titleSection2
+{
+	position: relative;
+	margin-top: 40px;
+	width: 453px;
+
 
 
 }
@@ -184,7 +203,8 @@ button{
 
 .titleSectionH
 {
-	font-size: 30px;
+	font-family: 'nobileregular', Arial, Serif;
+	font-size: 28px;
 	text-align: center;
 }
 
@@ -206,7 +226,7 @@ button{
 	top: 50%;
 	bottom: 50%;
 	margin-left: 184px;
-	border: 2px solid white;
+	border: 5px solid white;
 	cursor: pointer;
 	border-color: #fff;
 	border-radius: 5px;
@@ -228,8 +248,9 @@ button{
 
 #footerCon p
 {
+	font-size: 14px;
 	margin-left: 14px;
-	margin-top: 40px;
+	margin-top: 29px;
 	color: #fff;
 }
 
@@ -267,7 +288,7 @@ h3{
 }
 
 p{
-	font-family:'Fauna One', Arial, Serif;
+	font-family:'nobileregular', Arial, Serif;
 }
 
 .contactTitle
@@ -361,7 +382,141 @@ input[type=text] {
 }
 
 /* advert page */
+
+#advertsCon
+{
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+
+}
+.advertsTitle{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+#advertsDes
+{
+	display: inline-block;
+	text-align: left;
+	width: 450px;
+	margin-left: 80px;
+	vertical-align: top; 
+	margin-top: 20px;
+
+}
 /* about us page */
+
+#brandDesc
+{
+	display: flex;
+	margin-top: 10px;
+}
+.aboutusTitle
+{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+
+.aboutUs_logo
+{
+	width: 362px;
+	height: 409px;
+	display: inline-block;
+	margin-left: 90px;
+}
+
+.desc
+{
+	width: 627px;
+	margin-left: 150px;
+}
+
+/*products page*/
+
+.productsTitle {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+
+
+#newdesc
+{
+	display: inline-block;
+	flex-direction: column;
+	width: 390px;
+	margin-bottom: 20px;
+}
+
+#newdesc h2
+{
+	font-family: 'Playfair Display', Arial, serif;
+	font-size: 33px;
+}
+
+#products
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+#productsIntro1
+{
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-left: 80px;
+	flex-direction: row;
+	width: 532px;
+}
+#productsIntro1 h2
+{
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Playfair Display', Arial, serif;
+	font-size: 30px;
+}
+#productsIntro1 img
+{
+	display: block;
+	margin-left: 120px;
+}
+
+#products
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+#productsIntro2
+{
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-left: 40px;
+	width: 532px;
+}
+
+#productsIntro2 h2
+{
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Playfair Display', Arial, serif;
+	font-size: 30px;
+}
+#productsIntro2 img
+{
+	display: block;
+	margin-left: 120px;
+}
+
+
+
+
+
 
 
 
